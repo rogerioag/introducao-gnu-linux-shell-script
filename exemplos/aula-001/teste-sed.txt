@@ -1,0 +1,8 @@
+Olá <nome>,
+
+Seja bem vindo ao curso.
+<mensagem>
+
+Ate.
+
+<assinatura>

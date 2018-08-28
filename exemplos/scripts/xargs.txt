@@ -1,0 +1,1 @@
+find -L /home/peter -name *~ -print0 | xargs -0 -r rm

@@ -1,0 +1,27 @@
+rogerio@chamonix:/minicurso-seinfo-2016/exemplos/aula-001$ cat teste-awk.txt | awk -F  "\t\t" '{print $1}'
+Huguinho
+Zezinho
+Luizinho
+Tio Patinhas
+Capitão Boing
+rogerio@chamonix:/minicurso-seinfo-2016/exemplos/aula-001$ cat teste-awk.txt | awk -F  "\t\t" '{print $2}'
+10
+12
+15
+80
+35
+rogerio@chamonix:/minicurso-seinfo-2016/exemplos/aula-001$ cat teste-awk.txt | awk -F  "\t\t" '{print $3}'
+h_tinho@hotmail.com
+zezao18@gmail.com
+lula2001@yahoo.com.br
+dinheiro@tiopatinhas.com
+voarvoar@subirsubir.com
+rogerio@chamonix:/minicurso-seinfo-2016/exemplos/aula-001$ cat teste-sed.txt | sed -e 's\<nome>\Rogério\g' | sed -e 's\<mensagem>\Contribua com a Wikipedia!\g' | sed -e 's\<assinatura>\Raguinho\g'
+Olá Rogério,
+
+Seja bem vindo ao curso.
+Contribua com a Wikipedia!
+
+Ate.
+
+Raguinho
