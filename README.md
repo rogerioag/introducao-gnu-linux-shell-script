@@ -4,7 +4,8 @@
 
 ## Slides
 
-[Slides](slides/minicurso_introducao_gnu_linux_shellscript.pdf)
+[Comandos Básicos](slides/minicurso_introducao_gnu_linux_shellscript_001.pdf)
+[Shell Script](slides/minicurso_introducao_gnu_linux_shellscript_002.pdf)
 
 
 ## Materiais
